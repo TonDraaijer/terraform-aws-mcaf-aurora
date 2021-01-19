@@ -65,7 +65,7 @@ variable "database_parameters" {
     name  = string
     value = string
   }))
-  default = null
+  default     = null
   description = "A list of instance DB parameters to apply"
 }
 
