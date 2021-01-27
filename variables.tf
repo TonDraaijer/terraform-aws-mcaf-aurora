@@ -165,15 +165,9 @@ variable "password" {
 }
 
 variable "performance_insights" {
-  description = "Specifies whether Performance Insights is enabled or not."
+  description = "Specifies whether Performance Insights is enabled or not"
   type        = bool
   default     = false
-}
-
-variable "performance_insights_kms_key_id" {
-  description = "The ARN for the KMS key to encrypt Performance Insights data."
-  type        = string
-  default     = ""
 }
 
 variable "permissions_boundary" {

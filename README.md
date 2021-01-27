@@ -47,7 +47,6 @@
 | monitoring\_interval | The interval (seconds) between points when Enhanced Monitoring metrics are collected | `string` | `0` | no |
 | min\_capacity | The minimum capacity of the serverless cluster | `string` | `1` | no |
 | performance\_insights\_enabled | Specifies whether Performance Insights is enabled or not | `bool` | `false` | no |
-| performance\_insights\_kms\_key\_id | The ARN for the KMS key to encrypt Performance Insights data | `string` | `null` | no |
 | publicly\_accessible | Control if instances in cluster are publicly accessible | `string` | `false` | no |
 | security\_group\_ids | List of security group IDs allowed to connect to Aurora | `list(string)` | `[]` | no |
 | skip\_final\_snapshot | Determines whether a final snapshot is created before deleting the cluster | `bool` | `false` | no |
